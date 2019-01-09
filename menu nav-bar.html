@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nav-bar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.1.0/css/bootstrap.min.css">
+</head>
+<style type="text/css">
+	div.container-fluid, div.container{
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	a.nav-item, div.nav-item{
+		width: 16.66%!important; text-align: center!important;
+		color: #ffffff!important;
+		vertical-align: middle!important;
+		border-right: .5px solid #065A8F!important;
+		border-left: .5px solid #065A8F!important;
+	}
+	a.active{
+		background: #065A8F!important;
+	}
+	i.material-icons{
+		vertical-align: middle!important;
+	}
+</style>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light" style="background: #267CB5; padding: 0 20px;">
+			  <span class="navbar-brand" style="cursor: default; font-weight: lighter; color: #ffffff;" href="#">MINPOSTEL</span>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav" style="width: 100%;">
+			      <a class="nav-item nav-link active" href="#">
+			      	<i class="material-icons">dashboard</i> Accueil</a>
+			      <a class="nav-item nav-link" href="#">
+			      <i class="material-icons">supervisor_account</i> Utilisateurs</a>
+			      <a class="nav-item nav-link" href="#"><i class="material-icons">folder</i> Documents</a>
+			      <a class="nav-item nav-link" href="#"><i class="material-icons">swap_horiz</i> Mouvements</a>
+			      <a class="nav-item nav-link" href="#">
+			      	<i class="material-icons">storage</i> Stockage</a>
+			      	<!--Dropdown-->
+			      <div class="dropdown nav-item nav-link" href="#" style="border-right: 0!important;">
+			      	<span style="padding-right: 5px;">
+			      		<i class="material-icons" style="cursor: pointer;">chat</i>
+			      	</span>
+			      	<span class="dropdown-toggle" style="width: 100%!important; margin: 0!important; cursor: pointer;" type="" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <i class="material-icons">account_circle</i>
+					</span>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <p style="width: 100%; text-align: center; font-weight: bolder; color: #267CB5;">Jean Mengue</p>
+					    <hr>
+					    <a class="dropdown-item" href="#">Tâches</a>
+					    <a class="dropdown-item" href="#">Déconnexion</a>
+					  </div>
+			      </div>
+
+			    </div>
+			  </div>
+		</nav>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap-4.1.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap-4.1.0/js/bootstrap.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
+</body>
+</html>
