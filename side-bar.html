@@ -9,6 +9,66 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.1.0/css/bootstrap.min.css">
 </head>
 <body>
+	<div class="container-fluid">
+				<div class="form-group">
+					<p style="padding: 10px; background: #065A8F; color: #FFFFFF;">Rechercher...</p>
+
+					<select class="form-control" id="">
+				      <option>DOCUMENTS ORGANISATIONNELS</option>
+				      <option>ACTES DE CARRIERE</option>
+				      <option>CORRESPONDANCE</option>
+				      <option>RESSOURCES FINANCIERES</option>
+				      <option>AUTRES</option>
+				    </select>
+
+				    <!--DOCUMENTS ORGANISATIONNELS-->
+				    <select class="form-control" id="exampleFormControlSelect1" style="display: none!important;">
+				      <option>Organigramme</option>
+				      <option>Rapport des travaux des services centraux, déconcentrés et structures sous tutelle</option>
+				      <option>Procès-verbaux des conseils d'administration des sociétés sous tutelle</option>
+				      <option>Directives ministérielles(Décrets Arrêtés circulaires, notes, décisions)</option>
+				      <option>Délégation de pouvoirs de signature</option>
+				      <option>Bilan présenté par le DG lors de la présentation des voeux</option>
+				      <option>Discours du Ministre lors des évènements</option>
+				      <option>Compte rendu des réunions</option>
+				      <option>Actes(nomination/affectation)</option>
+				    </select>
+				    
+				    <!--CATEGORIE ACTES DE CARRIERE-->
+				    <select class="form-control" id="exampleFormControlSelect1" style="display: none!important;">
+				      <option>Recrutement</option>
+				      <option>Grade, échelons, reclassement</option>
+				      <option>Congés(administratif, annuel, biennal, maternité)</option>
+				      <option>Certificats/ et attestations/attestations d'emploi/attestation cessation de service/attestation de mise en retraite/certificat de travail/attestation d'ancienneté(présence effective, reprise service, prise de service)</option>
+				      <option>Stages(autorisation de mise en stage, rapport de stage)</option>
+				    </select>
+				    
+				    <!--CATEGORIE CORREESPONDANCE-->
+				    <select class="form-control" id="exampleFormControlSelect1" style="display: none!important;">
+				      <option>Correspondances(arrivée/départ)</option>
+				      <option>Notes</option>
+				    </select>
+				    
+				    <!--CATEGORIE RESSOURCES FINANCIERES-->
+				    <select class="form-control" id="exampleFormControlSelect1" style="display: none!important;">
+				      <option>Documents comptables(bilan, audits, rapports, des controles budgetaires, compte d'exploitation, livre d'inventaire, bon de commande, lettre commande, marché, Délégation de pouvoirs de signature, Dossier d'appel d'offre, Agrément/convention, Approvisionnement et transfert de ligne)</option>
+				      <option>Documents fiscaux(impot, tva)<option>
+				      <option>Investissemnt(Acquisition, cession, participation)</option>
+				      <option>Contrats commerciaux(contrat d'assurance, contrat de fournisseur)</option>
+				      <option>Fiche récapitulative des mandats transmis</option>
+				      <option>Documents comptables budget annexe(frais de déplacement, frais médicaux, entretien des biens mobiliers et immobiliers, Ventes et disposition des biens mobiliers et immobiliers, Contrats de baux, Construction batiment, Construction de lignes téléphoniques)</option>
+				    </select>
+
+				    <!--CATEGORIE AUTRES-->
+				    <select class="form-control" id="exampleFormControlSelect1" style="display: none!important;">
+				      <option>Devis et plan</option>
+				      <option>bordereau de transmission</option>
+				    </select>
+					<input class="form-control" type="date" placeholder="Date d'ajout">
+					<input class="form-control" type="number" placeholder="Nombre de pages">
+					<input class="form-control" type="text" placeholder="Signataire">
+				</div>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
