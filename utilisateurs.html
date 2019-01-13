@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>side-bar</title>
+	<title>sub-Menu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.1.0/css/bootstrap.min.css">
 </head>
+<style type="text/css">
+	div.container-fluid, div.container{
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	a.nav-item, div.nav-item{
+		width: 16.66%!important; text-align: center!important;
+		vertical-align: middle!important;
+	}
+	a.active{
+		background: #065A8F!important;
+		color: #ffffff!important;
+	}
+	i.material-icons{
+		vertical-align: middle!important;
+	}
+</style>
 <body>
+
+	<div class="container-fluid">
+		<!--subMenu-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background: #FFFFFF; padding: 0 20px;">
+			  <span class="navbar-brand" style="cursor: default; font-weight: lighter;" href="#"><i class="material-icons">supervisor_account</i> Utilisateurs et autres</span>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav" style="width: 100%;">
+			      <a class="nav-item nav-link active" href="#">
+			      	<i class="material-icons">portrait</i> Liste</a>
+			      <a class="nav-item nav-link" href="#">
+			      <i class="material-icons">person_add</i> Nouvel utilisateur</a>
+			      <a class="nav-item nav-link" href="#"><i class="material-icons">check_box</i> Profils</a>
+			    </div>
+			  </div>
+		</nav>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
